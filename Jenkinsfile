@@ -3,7 +3,7 @@ agent any
     stages {
         stage ('Checkout') {
             steps {
-                git branch:'master', url: 'https://github.com/brandonbljl/Lab8Vulnado.git'
+                git branch:'master', url: 'https://github.com/ScaleSec/vulnado.git'
             }
         }
         stage ('Build') {
